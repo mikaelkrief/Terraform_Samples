@@ -1,0 +1,36 @@
+{
+    "download_terraform": false,
+    "terraform_version": "0.12.0",
+    "use_azcli": false,
+    "backendfile": "dev/backend.tfvars",
+    "auto-approve": true,
+    "reconfigure": true,
+    "run_apply": true,
+    "run_output": true,
+    "planout": "out.tfplan",
+    "azure_credentials": {
+        "subscriptionId": "1da42ac9-ee3e-4fdb-b294-f7a607f589d5",
+        "clientId": "94a2ea7d-10c9-46b3-803e-d871555aa4d5",
+        "tenantId": "2e3a33f9-66b1-4e2a-8b95-74102ad857c2"
+        
+    },
+    "varfiles": [
+        "dev/env-vars.tfvars"
+    ],
+    "vars": [
+        {
+            "name": "createdby",
+            "value": "__createdby__"
+        }
+    ],
+    "OutputToAzDo": [
+        {
+            "tfoutput": "webapp-name",
+            "azdovar": "webappname"
+        },
+        {
+            "tfoutput": "app-instrumentationKey",
+            "azdovar": "ApplicationInsights.InstrumentationKey"
+        }
+    ]
+}
