@@ -9,9 +9,9 @@
     "run_output": true,
     "planout": "out.tfplan",
     "azure_credentials": {
-        "subscriptionId": "1da42ac9-ee3e-4fdb-b294-f7a607f589d5",
-        "clientId": "94a2ea7d-10c9-46b3-803e-d871555aa4d5",
-        "tenantId": "2e3a33f9-66b1-4e2a-8b95-74102ad857c2"
+        "subscriptionId": "xxxxxx-xx-xxxxxxxxxxx-xxxxx-xxxx",
+        "clientId": "xxxxxx-xx-xxxxxxxxxxx-xxxxx-xxxx",
+        "tenantId": "xxxxxx-xx-xxxxxxxxxxx-xxxxx-xxxx"
         
     },
     "varfiles": [
